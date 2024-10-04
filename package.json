@@ -1,0 +1,17 @@
+{
+  "name": "useless-qr-generator-with-auth",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Qr auth website",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Faraz",
+  "license": "ISC",
+  "devDependencies": {
+    "body-parser": "^1.20.3",
+    "express": "^4.21.0"
+  }
+}
