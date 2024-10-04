@@ -78,11 +78,10 @@ app.post("/form", (req, res) => {
       "Content-Length": img.length,
     });
     res.end(img);
-    console.log(url);
   });
 });
 
-app.listen(3000, (err) => {
+app.listen(4000, (err) => {
   if (err) throw new Error(err);
   else console.log("Server Running at Port 3000");
 });
